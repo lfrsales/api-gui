@@ -5,6 +5,6 @@ package api.gui.constants;
  */
 public class ApiGuiPortletKeys {
 
-	public static final String ApiGui = "apigui";
+	public static final String ApiGui = "com_liferay_portlet_api_gui";
 
 }

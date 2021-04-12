@@ -1,5 +1,5 @@
-Bundle-Name: api-gui
+Bundle-Name: API GUI
 Bundle-SymbolicName: api.gui
 Bundle-Version: 1.0.0
 Export-Package: api.gui.constants
-Web-ContextPath: /api-gui
+Web-ContextPath: /control-panel-api-gui
