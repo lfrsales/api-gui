@@ -31,8 +31,8 @@ export const getSearchParams = () => {
 	return newSearchParams;
 }
 
-export const getSearchParam = key => {
+export const getSearchParam = (key, defaultValue) => {
 	const searchParams = new URLSearchParams(location.search);
 
-	return searchParams.get(key) || null;
+	return searchParams.get(key) || defaultValue;
 }

@@ -7,6 +7,20 @@ const REQUEST_BODY_TYPES = [
 	'multipart/form-data'
 ];
 
+export function isEmptyString(string) {
+	if (typeof string != 'string') {
+		return true;
+	}
+
+	string = string.trim();
+
+	return !string || string.length == 0;
+}
+
+export function isNotEmptyString(string) {
+	return !isEmptyString(string);
+}
+
 export const getSchemaType = (requestBody) => {
 	let schemaType = '';
 

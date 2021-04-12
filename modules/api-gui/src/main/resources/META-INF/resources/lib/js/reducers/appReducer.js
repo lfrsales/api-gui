@@ -1,9 +1,10 @@
 import {getSearchParam} from '../util/params';
+import { isEmptyString } from '../util/util';
 
 const initialState = {
 	apiResponse: undefined,
 	apiURL: '',
-	categoryKey: getSearchParam('category'),
+	categoryKey: getSearchParam('category', ''),
 	categories: undefined,
 	contentType: undefined,
 	filter: getSearchParam('filter') || '',
@@ -31,7 +32,7 @@ const appStateReducer = (state, action) => {
 
 			return {
 				...state,
-				categoryKey: state.categoryKey || Object.keys(categories)[0],
+				categoryKey: isEmptyString(state.categoryKey) ? Object.keys(categories)[0] : state.categoryKey,
 				categories
 			};
 		}
