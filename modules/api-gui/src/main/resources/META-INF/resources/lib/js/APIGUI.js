@@ -97,7 +97,7 @@ const APIGUI = props => {
 
 	return (
 		<div className="api-gui-root">
-			<div className="container container-fluid">
+			<div className="bg-white container-fluid">
 				<div className="row">
 					<div className="col col-md-5 border p-0 overflow-auto vh-100">
 						<ClayForm.Group className="px-3 pt-3">
