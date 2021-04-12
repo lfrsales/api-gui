@@ -12,9 +12,10 @@
  * details.
  */
 
-package com.liferay.gogo.shell.web.internal.portlet;
+package api.gui.portlet;
 
 import api.gui.constants.ApiGuiPortletKeys;
+
 import com.liferay.portal.kernel.portlet.ControlPanelEntry;
 import com.liferay.portal.kernel.portlet.OmniadminControlPanelEntry;
 
@@ -25,7 +26,7 @@ import org.osgi.service.component.annotations.Component;
  */
 @Component(
 	immediate = true,
-	property = "javax.portlet.name=" + ApiGuiPortletKeys.ApiGui,
+	property = "javax.portlet.name=" + ApiGuiPortletKeys.API_GUI,
 	service = ControlPanelEntry.class
 )
 public class ApiGuiControlPanelEntry extends OmniadminControlPanelEntry {

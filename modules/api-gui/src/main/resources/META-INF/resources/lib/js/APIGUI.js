@@ -102,7 +102,7 @@ const APIGUI = props => {
 					<div className="col col-md-5 border p-0 overflow-auto vh-100">
 						<ClayForm.Group className="px-3 pt-3">
 							<label className="d-flex justify-content-between" htmlFor="categorySelect">
-								<span>{'Select API Category'}</span>								
+								<span>{'Select API Category'}</span>
 
 								{schemas &&
 									<a
@@ -176,7 +176,7 @@ const APIGUI = props => {
 							<APIDisplay />
 						}
 
-						{!path && 
+						{!path &&
 							<ClayAlert displayType="info" spritemap={spritemap} title="Info">
 								{'Please select an API from the list on the left.'}
 							</ClayAlert>

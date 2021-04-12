@@ -12,9 +12,10 @@
  * details.
  */
 
-package com.liferay.gogo.shell.web.internal.application.list;
+package api.gui.application.list;
 
 import api.gui.constants.ApiGuiPortletKeys;
+
 import com.liferay.application.list.BasePanelApp;
 import com.liferay.application.list.PanelApp;
 import com.liferay.application.list.constants.PanelCategoryKeys;
@@ -38,12 +39,12 @@ public class ApiGuiPanelApp extends BasePanelApp {
 
 	@Override
 	public String getPortletId() {
-		return ApiGuiPortletKeys.ApiGui;
+		return ApiGuiPortletKeys.API_GUI;
 	}
 
 	@Override
 	@Reference(
-		target = "(javax.portlet.name=" + ApiGuiPortletKeys.ApiGui + ")",
+		target = "(javax.portlet.name=" + ApiGuiPortletKeys.API_GUI + ")",
 		unbind = "-"
 	)
 	public void setPortlet(Portlet portlet) {
