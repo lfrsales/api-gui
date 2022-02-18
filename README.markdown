@@ -8,17 +8,17 @@ A GUI for exploring Liferay's API's in Liferay DXP `7.3`.
 
 ![API GUI](/images/APIGUI.png)
 
-### View results of API requests and see examples of how to make the request using JavaScript.
+### View results of API requests.
 
 ![API GUI Result](/images/APIGUIResult.png)
-
-### Explore available schemas.
-
-![API GUI Result](/images/schemaExplorer.png)
 
 ### See example API Calls using `Liferay.Util.fetch`.
 
 ![javascriptExample](/images/javascriptExample.png)
+
+### Explore available schemas.
+
+![API GUI Result](/images/schemaExplorer.png)
 
 ## How to Build and Deploy to Liferay
 
