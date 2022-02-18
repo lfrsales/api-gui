@@ -34,7 +34,7 @@ const APIForm = props => {
 
 	const schema = schemas[getSchemaType(requestBody)];
 
-	const baseURL = getBaseURL(getCategoryURL(categories, categoryKey))
+	const baseURL = getBaseURL(categoryKey);
 
 	const contentType = useMemo(() => getContentType(requestBody), [requestBody]);
 

@@ -2,8 +2,8 @@ export const getCategoryURL = (categories, categoryKey) => {
 	return categories && categoryKey && categories ? categories[categoryKey][0] : '';
 }
 
-export const getBaseURL = categoryURL => {
-	return categoryURL.replace('/v1.0/openapi.json', '');
+export const getBaseURL = categoryKey => {
+	return `/o${categoryKey}`;
 }
 
 export const getSearchParams = (params = [], values) => {
