@@ -4,17 +4,21 @@ A GUI for exploring Liferay's API's in Liferay DXP `7.3`.
 
 ## Usage
 
-Find the widget in the Control Panel under System > API GUI.
+### Find the widget in the Control Panel under System > API GUI.
 
 ![API GUI](/images/APIGUI.png)
 
-View results of API requests and see examples of how to make the request using JavaScript.
+### View results of API requests and see examples of how to make the request using JavaScript.
 
 ![API GUI Result](/images/APIGUIResult.png)
 
-Explore available schemas.
+### Explore available schemas.
 
 ![API GUI Result](/images/schemaExplorer.png)
+
+### See example API Calls using `Liferay.Util.fetch`.
+
+![javascriptExample](/images/javascriptExample.png)
 
 ## How to Build and Deploy to Liferay
 
